@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:id="@+id/RelativeLayout1"
+    tools:context="com.tugas.tasikku.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#00000000"
+                android:drawableTop="@drawable/mapp"
+                android:text="Tentang Daerah"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:onClick="PindahInfoDaerah"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#00000000"
+                android:drawableTop="@drawable/backpack"
+                android:text="Info Wisata Hitz"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:onClick="PindahInfoWisata"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#00000000"
+                android:drawableTop="@drawable/restaurant"
+                android:text="Info Makanan Hitz"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:onClick="PindahInfoMakanan"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="#00000000"
+                android:drawableTop="@drawable/question"
+                android:text="Tentang Aplikasi"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:onClick="PindainInfoAplikasi"/>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
